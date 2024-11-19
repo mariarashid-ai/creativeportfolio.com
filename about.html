@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="boot/CSS/bootstrap.css">
     <link rel="stylesheet" href="boot/CSS/mdb.css">
     <link rel="stylesheet" href="boot/CSS/style.css">
@@ -13,18 +13,17 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <h2  class="abc">Portfolio</h2>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <h2 class="abc">Portfolio</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html" active>About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="skill.html">Skills</a>
@@ -38,51 +37,58 @@
                 </ul>
             </div>
         </div>
-    </nav> 
+    </nav>
+
+    <!-- About Section -->
     <div class="container">
-        <div class="row" style="color:#041e42 ;text-align: justify;">
-          <div class="col-lg-4">
-            <img src="bill.jpg" alt="Profile Picture" class="img-fluid rounded-circle " >
-          </div>
-          <div class="col-lg-8">
-            <h2>About Me</h2>
-            Hello! I'm <a style="color:#041e42; font-style: oblique;text-shadow: orange;">Bill Gates</a>  co-founder of Microsoft and a philanthropist dedicated to solving global challenges. I founded Microsoft in 1975 with my childhood friend Paul Allen, and together we developed revolutionary software like Windows and Office that changed how people use computers.</p>
-          </div>
-        </div>
-      </div>
-</div>
-</div>
-<div class="footer">
-    <p>&copy; 2024 Portfolio | Follow me on:</p>
-    <div class="footer-icons">
-        <!-- YouTube -->
-        <div class="icon-group">
-            <img src="icons8-youtube-48.png" alt="YouTube">
-            <div class="right-line"></div>
-            <a href="https://www.youtube.com" target="_blank">@billgateyoutube</a>
-            
-        </div>
-        <!-- Twitter -->
-        <div class="icon-group">
-            <img src="icons8-twitter-50.png" alt="Twitter">
-            <div class="right-line"></div>
-            <a href="https://www.twitter.com/billgates" target="_blank">@billgateTwitte</a>
-            
-        </div>
-        <!-- Instagram -->
-        <div class="icon-group">
-            <img src="instagram.png" alt="Instagram">
-            <div class="right-line"></div>
-            <a href="https://www.instagram.com" target="_blank">@billInsta</a>
+        <div class="row align-items-center" style="color:#041e42; text-align: justify;">
+            <div class="col-lg-4 text-center">
+                <img src="bill.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm <a style="color:#041e42; font-style: oblique; text-shadow: orange;">Bill Gates</a>, 
+                    co-founder of Microsoft and a philanthropist dedicated to solving global challenges. I founded Microsoft 
+                    in 1975 with my childhood friend Paul Allen, and together we developed revolutionary software like Windows and 
+                    Office that changed how people use computers.
+                </p>
+            </div>
         </div>
     </div>
-    <p>All rights reserved.</p>
-</div>
 
-     <!-- Bootstrap JS -->
-     <script src="boot/JS/jquery.js"></script>
-     <script src="boot/JS/popper.js"></script>
-     <script src="boot/JS/bootstrapjs.js"></script>
-     <script src="boot/JS/mdbjs.js"></script>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Portfolio | Follow me on:</p>
+        <div class="footer-icons">
+            <!-- YouTube -->
+            <div class="icon-group">
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="icons8-youtube-48.png" alt="YouTube">
+                </a>
+                <span>@billgateyoutube</span>
+            </div>
+            <!-- Twitter -->
+            <div class="icon-group">
+                <a href="https://www.twitter.com/billgates" target="_blank">
+                    <img src="icons8-twitter-50.png" alt="Twitter">
+                </a>
+                <span>@billgateTwitte</span>
+            </div>
+            <!-- Instagram -->
+            <div class="icon-group">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="instagram.png" alt="Instagram">
+                </a>
+                <span>@billInsta</span>
+            </div>
+        </div>
+        <p>All rights reserved.</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>
 </body>
 </html>
